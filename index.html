@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ESCAPE VENEZUELA</title>
+		<link rel="stylesheet" href="style.css"/>
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Passion+One')
+		</style>
+</head>
+<body>
+	<div class="one">
+		<div class="clues">
+			<div class="box1">
+				<img src="" id="tips"/>
+				<p class="center-content"> 
+¡Determine la presión correcta para cada medidor de aceite para desbloquear una LLAVE y hacer explotar la plataforma!</p>
+			</div>
+			<div class="box2 center-content" class="restrict-img">
+				<img src="" class="restrict-img center-content" id="keybox" onclick="unlOck()"/>
+			</div>
+		</div>
+		
+		<div class="lock center-content"> 
+				<img src="images/door.png" class="restrict-img" onclick="freEdom(this)"/>
+		</div>
+	</div>
+	<div class="two">
+		<div class="top center-content">
+			<img src="images/toparrow.png" class="restrict-img" onclick="nextImage(this)"/>
+		</div>
+		<div class="mid1 center-content">
+			<img src="images/gauge1.png" class="restrict-img" id="left"/>
+		</div>
+		<div class="bot center-content">
+			<img src="images/botarrow.png" class="restrict-img" onclick="botImage(this)"/>
+		</div>
+	</div>
+	<div class="three">
+		<div class="top center-content">
+			<img src="images/toparrow.png" class="restrict-img" onclick="nextImage2(this)"/>
+		</div>
+		<div class="mid2 center-content">
+			<img src="images/gauge1.png" class="restrict-img" id="right"/>
+		</div>
+		<div class="bot center-content">
+			<img src="images/botarrow.png" class="restrict-img" onclick="botImage2(this)"/>
+		</div>
+	</div>
+	<audio src="sounds/keys.mp3" type="audio/mp3" id="keynoise"></audio>
+	<script src="script.js"></script>
+</body>
+</html>

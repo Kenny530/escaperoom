@@ -45,9 +45,8 @@ function botImage2(el){
 
 function checkGauges(){
 	if (a.src.match("images/gauge4.png") && b.src.match("images/gauge2.png")){
-		key.src = "images/key.jpg";
-		//a.src = "images/spill.jpg";
-		//b.src = "images/spill.jpg";
+		key.src = "images/key.png";
+		c.classList.remove("opaque");
 	} 
 }
 function finalPage(){

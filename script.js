@@ -4,7 +4,7 @@ var a = document.getElementById("left");
 var b = document.getElementById("right");
 var c = document.getElementById("button1");
 var key = document.getElementById("keybox");
-var sound = document.getelementbyId("keynoise");
+
 
 function nextImage(el){
 	if (a.src.match("images/gauge1.png")){
@@ -50,16 +50,11 @@ function checkGauges(){
 		//b.src = "images/spill.jpg";
 	} 
 }
+function finalPage(){
+		window.location.href = 'end.html';
+	}
+function loopBack(){
+		window.location.href = "https://macielegaspi.github.io/gulagescape/gulagescape/";
+	}
 
-function unlOck(){
-	if (key.src.match("images/key.jpg")){
-		sounds.play();
-	}
-}
-function freEdom(){
-	if(c.src.match("images/door.png")){
-		window.location.href = "end.html";
-	}
-}
-		
 		

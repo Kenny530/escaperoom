@@ -85,9 +85,6 @@ body{
 	width:100%;
 	background-color: #2BA05E;
 }
-.button.active{
-	transform: scale(0.95, 0.95);
-}
 .opaque{
 	opacity: 0.5;
 }
